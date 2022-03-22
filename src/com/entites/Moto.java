@@ -1,0 +1,17 @@
+package com.entites;
+
+import com.outils.Moment;
+
+import java.util.List;
+
+public class Moto extends Vehicule {
+    public String type;
+
+    public Moto(String marque, String plaque, String modele, double prixH, int idVehicule,
+                List<Moment.PORTIONHEURE> horaireDiscutable, List<Moment.PORTIONMOI> jourDiscutable, String type) {
+        super(marque, plaque, modele, type, prixH,idVehicule,horaireDiscutable,jourDiscutable);
+    }
+
+
+}
+
